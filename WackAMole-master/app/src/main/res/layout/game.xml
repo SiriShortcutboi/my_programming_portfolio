@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grassy"
+    tools:context=".Game">
+
+
+    <ImageButton
+        android:id="@+id/creeperbutton1"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/creeperleft" />
+
+    <ImageButton
+        android:id="@+id/creeperbutton2"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="-0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/creeperright2" />
+
+
+    <ImageButton
+        android:id="@+id/creeperbutton3"
+        android:layout_width="55dp"
+        android:layout_height="140dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="-0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/creeperleft2" />
+
+
+    <ImageButton
+        android:id="@+id/creeperbutton4"
+        android:layout_width="55dp"
+        android:layout_height="140dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/creeperright2" />
+
+    <ImageButton
+        android:id="@+id/creeperbutton7"
+        android:layout_width="66dp"
+        android:layout_height="165dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/creeperleft3" />
+
+    <ImageButton
+        android:id="@+id/creeperbutton8"
+        android:layout_width="66dp"
+        android:layout_height="165dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/creeperright3" />
+
+    <ImageButton
+        android:id="@+id/creeperbutton5"
+        android:layout_width="60dp"
+        android:layout_height="170dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="-0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/creeperleft3" />
+
+    <ImageButton
+        android:id="@+id/creeperbutton6"
+        android:layout_width="60dp"
+        android:layout_height="170dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-0dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/creeperright3" />
+    <TextView
+        android:id="@+id/gamescoretv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCORE: " />
+
+</LinearLayout>
